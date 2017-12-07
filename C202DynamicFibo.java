@@ -4,7 +4,7 @@ import java.util.*;
 
 public class C202DynamicFibo {
     public static Integer recFib(Integer n){ //O(2^N) solution
-        if ( n==0 || n==1 )
+        if ( n==0 || n==1 ) //Base case
             return n;
         else
             return recFib(n-1) + recFib(n-2);
